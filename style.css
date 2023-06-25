@@ -1,0 +1,74 @@
+/* 共通のスタイル */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.feature-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #61a5c2;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+.feature-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  color: #777;
+  margin-bottom: 0;
+}
+
+.feature-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* モバイル用のスタイル */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .feature-card {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .feature-icon {
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .feature-title {
+    font-size: 16px;
+  }
+
+  .feature-description {
+    font-size: 14px;
+  }
+}
+
+  

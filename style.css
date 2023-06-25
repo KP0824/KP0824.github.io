@@ -76,28 +76,46 @@ body {
   padding: 0;
 }
 
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  display: flex;
 }
 
-header, nav, main, footer {
-  margin-bottom: 20px;
+.column {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.column-left {
+  order: 1;
 }
 
-nav ul li {
-  display: inline-block;
-  margin-right: 10px;
+.column-center {
+  order: 2;
 }
 
-nav ul li a {
-  text-decoration: none;
+.column-right {
+  order: 3;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+  
